@@ -101,6 +101,12 @@ You can also specify your own model and its performance as such:
 
 ![Custom model](scripts/data/MY_MODEL_en_shortform_rtfx_wer.png)
 
+# Reference error agreement
+
+`ref_errors/` measures whether models reproduce known errors in VoxPopuli's
+official references instead of human corrections. See
+[`ref_errors/README.md`](ref_errors/README.md).
+
 # Contributing a model or dataset
 
 Please follow the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md); it contains a submission checklist and guidelines.
